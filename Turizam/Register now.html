@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register now</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./CSS/styleRegister.css">
+    
+</head>
+<body>
+
+    
+    <section>
+        <div id="first" class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Register now</h2>
+
+                    <div class="chose-user">
+                        <div>
+                        <input type="radio" id="user" name="user-type" value="user" onclick="displayHTMLCode('<p>HTML code for User</p>')">
+                        <label for="user"><i class="fa fa-user icon2"></i> User</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="client" name="user-type" value="client" onclick="displayHTMLCode('<p>HTML code for Client</p>')">
+                        <label for="client"><i class="fas fa-user-tie icon2"></i> Creator</label>
+                        </div>
+                      </div>
+
+
+                    <div class="inputbox">
+                        <i class="fa fa-user icon" ></i>
+                        <input type="username" required>
+                        <label for="">Username</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <i class="fa fa-envelope icon" ></i>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <i class="fa fa-lock icon"></i>
+                        <input type="password" required>
+                        <label for="">Password</label>
+                    </div>
+
+                    <div class="inputbox">
+                        <i class="fa fa-lock icon"></i>
+                        <input type="password" required>
+                        <label for="">Confirm Password</label>
+                    </div>
+
+                    <div id="second" class="inputbox">
+                        <i class="fa fa-briefcase icon"></i>
+                        <input type="nameShop" required>
+                        <label for="">Business name</label>
+                    </div>
+                    
+                    <button>Sign up</button>
+                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="./JavaScript/registerNow.js"></script>
+
+</body>
+
+</html>

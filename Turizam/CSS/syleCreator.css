@@ -1,0 +1,232 @@
+*{
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header1{
+    z-index: 1000;
+    position: relative;
+    display: block;
+    background: linear-gradient(to right,  rgb(140, 233, 235), rgb(18, 121, 247));
+    
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.lista ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lista ul li a{
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: 'Vina Sans', cursive;
+}
+
+.signOut a{
+    padding: 5px 15px 5px 15px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: orange;
+}
+
+.signOut a:hover{
+    border: solid orange 1px;
+    color: orange;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+li:not(ul li):not(ol li) {
+    list-style: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+h1{
+    color: white;
+    font-family: 'Sigmar', cursive;
+    font-weight: initial;
+    font-size: 30px;
+
+}
+
+/* JUNK DIV ---------------------------------*/
+
+/* PROFILE SETTINGS AND PUBLISH ---------------------------------*/
+
+.profile{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.options{
+    float: left;
+    z-index: 999;
+    position:fixed;
+    display: block;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding-top: 30px;
+    padding-top: 80px;
+    border-right: solid black 1px;
+}
+
+
+.options ul{
+    display: block;
+    padding-left: 20px;
+}
+
+ul li a{
+    display: block;
+    list-style: none;
+    text-align: start;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.options ul li{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.icon{
+    color: black;
+    font-size: 25px;
+    margin-right: 25px;
+    text-align: center;
+    display: block;
+}
+
+.window{
+    display: block;
+    width: 75%;
+    margin-left: 25%;
+    height: 100%;
+    padding-top: 50px;
+
+}
+
+.acc-info {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info{
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.info h3{
+    font-size: 25px;
+    color: gray;
+    font-family: 'Teko', sans-serif;
+}
+
+.info h2{
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, rgb(64, 232, 234), rgb(245, 241, 241));
+    align-items: center;
+}
+
+/*ADS -------------------------------------------------------*/
+
+#ads{
+    display: none;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.ads-info{
+    padding: 20px;
+    display: flex;
+
+}
+
+.ads-info img{
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+}
+
+.ads-info h3{
+    font-size: 30px;
+    font-family: 'Vina Sans', cursive;
+}
+
+.ads-info p{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.ads-child{
+    padding-left: 30px;
+}
+
+.ads-child li a{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    list-style: none;
+    text-decoration: none;
+    background-color: orange;
+    padding: 5px 15px;
+    font-family: 'Vina Sans', cursive;
+}
+
+.ads-child li{
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.ads-child li a:hover{
+    color: orange;
+    background-color: transparent;
+    border: solid orange 1px;
+    transition: 0.5s;
+}
+
